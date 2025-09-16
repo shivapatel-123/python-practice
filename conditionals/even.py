@@ -1,14 +1,4 @@
-def even(n):
-    if n % 2 == 0:
-
-        return True
-
-    else:
-
-        return False
-
-print(even(2))
-
+#Write a program to check if a number is even or odd.
 def even(n):
     if n % 2 == 0:
         print(f"{n} is a even number")
@@ -17,7 +7,3 @@ def even(n):
     return
 n = int(input("enter a number:"))
 even(n)
-
-
-
-
